@@ -17,6 +17,7 @@ A simple script to chunk and de-chunk large files to fit within discord's 25mb u
 This program operates with the following files:
 
 > `header`: Defines the name, size, length, and byte index of the decoded files
+> 
 > `chunk-NN`: The packaged data itself
 
 For encoding, these files will be generated. For decoding, place these files in a new empty folder, and call `decode` mode on that folder.
